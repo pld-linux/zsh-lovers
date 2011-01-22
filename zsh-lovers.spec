@@ -10,6 +10,7 @@ Source0:	http://deb.grml.org/pool/main/z/zsh-lovers/%{name}_%{version}.tar.gz
 Source1:	http://grml.org/zsh/%{name}.1
 # Source1-md5:	d7b586ffa91bb63356ed0080699cef93
 URL:		http://grml.org/zsh/
+BuildRequires:	rpm-pythonprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
